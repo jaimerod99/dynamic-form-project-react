@@ -1,0 +1,2 @@
+instalar bootstrap.
+npm install react-bootstrap bootstrap
