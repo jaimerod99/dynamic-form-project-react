@@ -35,7 +35,7 @@ export default function FirstStep(){
         localStorage.setItem('fruitName',fruit.name)
         localStorage.setItem('iconFruit',fruit.icon)
     }
-    console.log(selectedCard)
+    // console.log(selectedCard)
     return(
         <div>
             <h2>Choose your favorite fruit</h2>

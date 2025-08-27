@@ -45,6 +45,6 @@ if(step ===1){
 }else if(step===2){
     return <SecondStep/>
 }else if(step===3){
-    return <ThirdStep/>
+    return <ThirdStep setStep={setStep}/>
 }
 }

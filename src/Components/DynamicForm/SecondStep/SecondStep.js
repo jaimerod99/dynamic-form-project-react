@@ -20,7 +20,7 @@ export default function SecondStep(){
     const onChangeAdditionalHobbie=(e)=>{
         const sport= e.target.value;
         // console.log(sport)
-        localStorage.setItem('aditionalHobbie',sport)
+        localStorage.setItem('additionalHobbie',sport)
     }
 return (<div>
 
@@ -30,7 +30,7 @@ return (<div>
     <Row className="justify-content-md-center">
         <Col lg="7">
         <h5>Select your hobbies</h5>
-        <Select defaultValue={selectOption} onChange={setSelectOption} options={options} inSearchable isMulti>
+        <Select defaultValue={selectOption} onChange={setSelectOption} options={options} isSearchable isMulti>
             
         </Select>
         </Col>
